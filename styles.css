@@ -86,3 +86,22 @@ body {
   width: 140px;
   margin-top: 15px;
 }
+
+/* ===== Ajustes para pantallas pequeñas (celulares) ===== */
+@media (max-width: 480px) {
+  .tarjeta {
+    width: 85%;
+    max-width: 300px;
+    padding: 25px;
+  }
+
+  .tarjeta img {
+    width: 100px;
+    height: 100px;
+  }
+
+  body {
+    align-items: flex-start;
+    padding-top: 60px;
+  }
+}
